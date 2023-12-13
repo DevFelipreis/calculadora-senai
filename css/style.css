@@ -1,72 +1,80 @@
-.degrade{
-	background-image: linear-gradient(45deg, rgb(127,79,190), rgb(79,42,165));
-	height:92vh;
+.degrade {
+	background-image: linear-gradient(45deg, #9e9ed6, #4f2aa5);
+	height: 92vh;
 	color: white;
-	font-family:Comic Sans Ms;
-	text-align:center;
+	font-family: 'Comic Sans MS', sans-serif;
+	text-align: center;
 }
-.calculadora{
-	position:absolute;
-	background-color: rgb(0,0,0.8);
+
+.calculadora {
+	position: absolute;
+	background-color: rgba(0, 0, 0, 0.5);
 	top: 55%;
-	left:50%;
-	transform:translate(-50%,-50%);
-	border-radius:15px;
-	padding:15px;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	border-radius: 15px;
+	padding: 15px;
+	box-shadow: 0 0 10px rgba(255, 255, 255, 0.3);
 }
-.botao{
+
+.botao {
 	width: 50px;
 	height: 50px;
 	font-size: 25px;
-	background-color:rgb(31, 31, 31);
-	border:none;
-	color:white;
-	margin:3px;
-}
-.botao:hover{
-	background-color:black;
+	background-color: #1f1f1f;
+	border: none;
+	color: white;
+	margin: 3px;
+	border-radius: 5px;
+	cursor: pointer;
+	transition: background-color 0.3s;
 }
 
-#resultado{
-	background-color:white;
-	width:210px;
-	height:30px;
-	margin:5px;
-	padding:5px;
-	text-align:right;
-	color:black;
-	font-size:25px;
+.botao:hover {
+	background-color: #023064;
+}
+
+#resultado {
+	background-color: white;
+	width: 210px;
+	height: 30px;
+	margin: 5px;
+	padding: 5px;
+	text-align: right;
+	color: black;
+	font-size: 25px;
 }
 
 footer {
-    background: #2c2045;
-    color: #ffffff;
-    padding: 10px;
-    text-align: center;
+	background: #2c2045;
+	color: #ffffff;
+	padding: 10px;
+	text-align: center;
 }
 
 a:visited {
-    color: darkgrey;
+	color: darkgrey;
 }
 
 .outer-container {
-    background: rgb(31, 31, 31); /* Cor de fundo */
-    padding: 20px; /* Espaçamento interno */
-	border-radius: 10px; /* Valor do raio do arredondamento */
-    overflow: hidden; /* Garante que as bordas arredondadas se apliquem corretamente */
+	background: #9db0f0;
+	padding: 20px;
+	border-radius: 10px;
+	overflow: hidden;
+}
 
 .social-icons {
-    display: flex;
-    justify-content: space-around;
-    margin-top: 10px;
+	display: flex;
+	justify-content: space-around;
+	margin-top: 10px;
 }
 
 .social-icons a {
-    color: white;
-    font-size: 20px;
-    margin: 0 10px;
+	color: rgb(89, 0, 255);
+	font-size: 20px;
+	margin: 0 10px;
 }
 
 .social-icons a:hover {
-    color: red; /* Ou a cor desejada para o hover */
+	color: red;
 }
